@@ -20,23 +20,35 @@
 .header {
   margin: 0;
   font-size: 50px;
-  font-weight: bold;
+  font-family: serif;
+  color: white;
 }
+
+.input {
+  text-align: center;
+  width: 20%;
+  margin: 25px;
+  height: 28px;
+}
+
 
 .sub-text {
   font-size: 25px;
   color: white;
+  font-style: italic;
+  font-family: serif;
+
 }
 
 .gradient-text {
-  background: -webkit-linear-gradient(left, #60c657 30%, #35aee2 60%);
+  background: -webkit-linear-gradient(left,grey 60%, black 40%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .cta-button {
-  height: 45px;
+  height: 35px;
   border: 0;
   width: auto;
   padding-left: 40px;
@@ -44,21 +56,23 @@
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
-  font-weight: bold;
   color: white;
+  align-self: center;
+  font-family: serif;
 }
 
 .connect-wallet-button {
-  background: -webkit-linear-gradient(left, #60c657, #35aee2);
+  background: -webkit-linear-gradient(left,grey, black);
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
 }
 
 .mint-button {
-  background: -webkit-linear-gradient(left, #a200d6, #ff6fdf);
+  background: -webkit-linear-gradient(left,grey, black);
   background-size: 200% 200%;
-  animation: gradient-animation 4s ease infinite;
   margin-right: 15px;
+  animation: gradient-animation 4s ease infinite;
+
 }
 
 .opensea-button {
@@ -87,6 +101,25 @@
   color: white;
   font-size: 16px;
   font-weight: bold;
+}
+#tokenId {
+  border: solid 1px #CCC;
+  height: 22px;
+  width: 250px;
+  font-size: 15px;
+  color: black;
+  padding-left: 5px;
+  vertical-align: bottom
+}
+
+#submitTokenId {
+  height: 26px;
+  width: 115px;
+  color: white;
+  background-color: grey;
+  font-family: serif;
+  font-size: 15px;
+
 }
 
 /* KeyFrames */
